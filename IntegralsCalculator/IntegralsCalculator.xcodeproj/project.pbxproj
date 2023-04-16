@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		206B9A4529D7DAEE00B6A6AB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B9A4429D7DAEE00B6A6AB /* App.swift */; };
+		206B9A4729D7DAEE00B6A6AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B9A4629D7DAEE00B6A6AB /* ContentView.swift */; };
+		206B9A4929D7DAF000B6A6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206B9A4829D7DAF000B6A6AB /* Assets.xcassets */; };
+		206B9A4C29D7DAF000B6A6AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206B9A4B29D7DAF000B6A6AB /* Preview Assets.xcassets */; };
+		206B9A5729D7DAF000B6A6AB /* IntegralsCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B9A5629D7DAF000B6A6AB /* IntegralsCalculatorTests.swift */; };
+		206B9A6129D7DAF000B6A6AB /* IntegralsCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B9A6029D7DAF000B6A6AB /* IntegralsCalculatorUITests.swift */; };
+		206B9A6329D7DAF000B6A6AB /* IntegralsCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B9A6229D7DAF000B6A6AB /* IntegralsCalculatorUITestsLaunchTests.swift */; };
+		206B9A7129D7DB6900B6A6AB /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B9A7029D7DB6900B6A6AB /* Methods.swift */; };
+		206B9A7529D7DDF300B6A6AB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B9A7429D7DDF300B6A6AB /* ViewModel.swift */; };
+		208E36C829E9B3F30050E03C /* RectangleMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36C729E9B3F30050E03C /* RectangleMethod.swift */; };
+		208E36CC29EA07E70050E03C /* RectangleMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36CB29EA07E70050E03C /* RectangleMethodTests.swift */; };
+		208E36CE29EA0C470050E03C /* TrapezoidMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36CD29EA0C470050E03C /* TrapezoidMethod.swift */; };
+		208E36D029EA0EDE0050E03C /* TrapezoidMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36CF29EA0EDE0050E03C /* TrapezoidMethodTests.swift */; };
+		208E36D229EA107F0050E03C /* SimpsonsMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36D129EA107F0050E03C /* SimpsonsMethod.swift */; };
+		208E36D429EA91600050E03C /* SimpsonsMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36D329EA91600050E03C /* SimpsonsMethodTests.swift */; };
+		208E36D629EA92550050E03C /* FunctionVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36D529EA92550050E03C /* FunctionVariant.swift */; };
+		208E36D829EA94820050E03C /* MethodVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36D729EA94820050E03C /* MethodVariant.swift */; };
+		208E36DD29EA9B2E0050E03C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36DC29EA9B2E0050E03C /* ChartView.swift */; };
+		208E36DF29EA9B4E0050E03C /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36DE29EA9B4E0050E03C /* Points.swift */; };
+		208E36E229EA9BF90050E03C /* Linspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E36E129EA9BF90050E03C /* Linspace.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		206B9A5329D7DAF000B6A6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206B9A3929D7DAEE00B6A6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206B9A4029D7DAEE00B6A6AB;
+			remoteInfo = IntegralsCalculator;
+		};
+		206B9A5D29D7DAF000B6A6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206B9A3929D7DAEE00B6A6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206B9A4029D7DAEE00B6A6AB;
+			remoteInfo = IntegralsCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		206B9A4129D7DAEE00B6A6AB /* IntegralsCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegralsCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		206B9A4429D7DAEE00B6A6AB /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		206B9A4629D7DAEE00B6A6AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		206B9A4829D7DAF000B6A6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		206B9A4B29D7DAF000B6A6AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		206B9A4D29D7DAF000B6A6AB /* IntegralsCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntegralsCalculator.entitlements; sourceTree = "<group>"; };
+		206B9A5229D7DAF000B6A6AB /* IntegralsCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegralsCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		206B9A5629D7DAF000B6A6AB /* IntegralsCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegralsCalculatorTests.swift; sourceTree = "<group>"; };
+		206B9A5C29D7DAF000B6A6AB /* IntegralsCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegralsCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		206B9A6029D7DAF000B6A6AB /* IntegralsCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegralsCalculatorUITests.swift; sourceTree = "<group>"; };
+		206B9A6229D7DAF000B6A6AB /* IntegralsCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegralsCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		206B9A7029D7DB6900B6A6AB /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		206B9A7429D7DDF300B6A6AB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		208E36C729E9B3F30050E03C /* RectangleMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMethod.swift; sourceTree = "<group>"; };
+		208E36CB29EA07E70050E03C /* RectangleMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMethodTests.swift; sourceTree = "<group>"; };
+		208E36CD29EA0C470050E03C /* TrapezoidMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidMethod.swift; sourceTree = "<group>"; };
+		208E36CF29EA0EDE0050E03C /* TrapezoidMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidMethodTests.swift; sourceTree = "<group>"; };
+		208E36D129EA107F0050E03C /* SimpsonsMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsMethod.swift; sourceTree = "<group>"; };
+		208E36D329EA91600050E03C /* SimpsonsMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsMethodTests.swift; sourceTree = "<group>"; };
+		208E36D529EA92550050E03C /* FunctionVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionVariant.swift; sourceTree = "<group>"; };
+		208E36D729EA94820050E03C /* MethodVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodVariant.swift; sourceTree = "<group>"; };
+		208E36DC29EA9B2E0050E03C /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		208E36DE29EA9B4E0050E03C /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		208E36E129EA9BF90050E03C /* Linspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linspace.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		206B9A3E29D7DAEE00B6A6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206B9A4F29D7DAF000B6A6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206B9A5929D7DAF000B6A6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206B9A3829D7DAEE00B6A6AB = {
+			isa = PBXGroup;
+			children = (
+				206B9A4329D7DAEE00B6A6AB /* IntegralsCalculator */,
+				206B9A5529D7DAF000B6A6AB /* IntegralsCalculatorTests */,
+				206B9A5F29D7DAF000B6A6AB /* IntegralsCalculatorUITests */,
+				206B9A4229D7DAEE00B6A6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		206B9A4229D7DAEE00B6A6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				206B9A4129D7DAEE00B6A6AB /* IntegralsCalculator.app */,
+				206B9A5229D7DAF000B6A6AB /* IntegralsCalculatorTests.xctest */,
+				206B9A5C29D7DAF000B6A6AB /* IntegralsCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		206B9A4329D7DAEE00B6A6AB /* IntegralsCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				208E36E029EA9BEE0050E03C /* Utils */,
+				206B9A7229D7DD9600B6A6AB /* Presentation */,
+				206B9A6F29D7DB4D00B6A6AB /* Math */,
+				206B9A4429D7DAEE00B6A6AB /* App.swift */,
+				206B9A4D29D7DAF000B6A6AB /* IntegralsCalculator.entitlements */,
+				206B9A4829D7DAF000B6A6AB /* Assets.xcassets */,
+				206B9A4A29D7DAF000B6A6AB /* Preview Content */,
+			);
+			path = IntegralsCalculator;
+			sourceTree = "<group>";
+		};
+		206B9A4A29D7DAF000B6A6AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				206B9A4B29D7DAF000B6A6AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		206B9A5529D7DAF000B6A6AB /* IntegralsCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				206B9A5629D7DAF000B6A6AB /* IntegralsCalculatorTests.swift */,
+				208E36CB29EA07E70050E03C /* RectangleMethodTests.swift */,
+				208E36CF29EA0EDE0050E03C /* TrapezoidMethodTests.swift */,
+				208E36D329EA91600050E03C /* SimpsonsMethodTests.swift */,
+			);
+			path = IntegralsCalculatorTests;
+			sourceTree = "<group>";
+		};
+		206B9A5F29D7DAF000B6A6AB /* IntegralsCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				206B9A6029D7DAF000B6A6AB /* IntegralsCalculatorUITests.swift */,
+				206B9A6229D7DAF000B6A6AB /* IntegralsCalculatorUITestsLaunchTests.swift */,
+			);
+			path = IntegralsCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		206B9A6F29D7DB4D00B6A6AB /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				206B9A7029D7DB6900B6A6AB /* Methods.swift */,
+				208E36C729E9B3F30050E03C /* RectangleMethod.swift */,
+				208E36CD29EA0C470050E03C /* TrapezoidMethod.swift */,
+				208E36D129EA107F0050E03C /* SimpsonsMethod.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		206B9A7229D7DD9600B6A6AB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				208E36DB29EA9B1C0050E03C /* Models */,
+				206B9A4629D7DAEE00B6A6AB /* ContentView.swift */,
+				208E36DC29EA9B2E0050E03C /* ChartView.swift */,
+				206B9A7429D7DDF300B6A6AB /* ViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		208E36DB29EA9B1C0050E03C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				208E36D729EA94820050E03C /* MethodVariant.swift */,
+				208E36D529EA92550050E03C /* FunctionVariant.swift */,
+				208E36DE29EA9B4E0050E03C /* Points.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		208E36E029EA9BEE0050E03C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				208E36E129EA9BF90050E03C /* Linspace.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		206B9A4029D7DAEE00B6A6AB /* IntegralsCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206B9A6629D7DAF000B6A6AB /* Build configuration list for PBXNativeTarget "IntegralsCalculator" */;
+			buildPhases = (
+				206B9A3D29D7DAEE00B6A6AB /* Sources */,
+				206B9A3E29D7DAEE00B6A6AB /* Frameworks */,
+				206B9A3F29D7DAEE00B6A6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntegralsCalculator;
+			packageProductDependencies = (
+			);
+			productName = IntegralsCalculator;
+			productReference = 206B9A4129D7DAEE00B6A6AB /* IntegralsCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		206B9A5129D7DAF000B6A6AB /* IntegralsCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206B9A6929D7DAF000B6A6AB /* Build configuration list for PBXNativeTarget "IntegralsCalculatorTests" */;
+			buildPhases = (
+				206B9A4E29D7DAF000B6A6AB /* Sources */,
+				206B9A4F29D7DAF000B6A6AB /* Frameworks */,
+				206B9A5029D7DAF000B6A6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206B9A5429D7DAF000B6A6AB /* PBXTargetDependency */,
+			);
+			name = IntegralsCalculatorTests;
+			productName = IntegralsCalculatorTests;
+			productReference = 206B9A5229D7DAF000B6A6AB /* IntegralsCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		206B9A5B29D7DAF000B6A6AB /* IntegralsCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206B9A6C29D7DAF000B6A6AB /* Build configuration list for PBXNativeTarget "IntegralsCalculatorUITests" */;
+			buildPhases = (
+				206B9A5829D7DAF000B6A6AB /* Sources */,
+				206B9A5929D7DAF000B6A6AB /* Frameworks */,
+				206B9A5A29D7DAF000B6A6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206B9A5E29D7DAF000B6A6AB /* PBXTargetDependency */,
+			);
+			name = IntegralsCalculatorUITests;
+			productName = IntegralsCalculatorUITests;
+			productReference = 206B9A5C29D7DAF000B6A6AB /* IntegralsCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		206B9A3929D7DAEE00B6A6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					206B9A4029D7DAEE00B6A6AB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					206B9A5129D7DAF000B6A6AB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 206B9A4029D7DAEE00B6A6AB;
+					};
+					206B9A5B29D7DAF000B6A6AB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 206B9A4029D7DAEE00B6A6AB;
+					};
+				};
+			};
+			buildConfigurationList = 206B9A3C29D7DAEE00B6A6AB /* Build configuration list for PBXProject "IntegralsCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 206B9A3829D7DAEE00B6A6AB;
+			packageReferences = (
+			);
+			productRefGroup = 206B9A4229D7DAEE00B6A6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				206B9A4029D7DAEE00B6A6AB /* IntegralsCalculator */,
+				206B9A5129D7DAF000B6A6AB /* IntegralsCalculatorTests */,
+				206B9A5B29D7DAF000B6A6AB /* IntegralsCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		206B9A3F29D7DAEE00B6A6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206B9A4C29D7DAF000B6A6AB /* Preview Assets.xcassets in Resources */,
+				206B9A4929D7DAF000B6A6AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206B9A5029D7DAF000B6A6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206B9A5A29D7DAF000B6A6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		206B9A3D29D7DAEE00B6A6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208E36D229EA107F0050E03C /* SimpsonsMethod.swift in Sources */,
+				206B9A4729D7DAEE00B6A6AB /* ContentView.swift in Sources */,
+				208E36CE29EA0C470050E03C /* TrapezoidMethod.swift in Sources */,
+				208E36DD29EA9B2E0050E03C /* ChartView.swift in Sources */,
+				208E36D629EA92550050E03C /* FunctionVariant.swift in Sources */,
+				208E36C829E9B3F30050E03C /* RectangleMethod.swift in Sources */,
+				208E36DF29EA9B4E0050E03C /* Points.swift in Sources */,
+				208E36D829EA94820050E03C /* MethodVariant.swift in Sources */,
+				208E36E229EA9BF90050E03C /* Linspace.swift in Sources */,
+				206B9A7129D7DB6900B6A6AB /* Methods.swift in Sources */,
+				206B9A7529D7DDF300B6A6AB /* ViewModel.swift in Sources */,
+				206B9A4529D7DAEE00B6A6AB /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206B9A4E29D7DAF000B6A6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208E36D429EA91600050E03C /* SimpsonsMethodTests.swift in Sources */,
+				206B9A5729D7DAF000B6A6AB /* IntegralsCalculatorTests.swift in Sources */,
+				208E36CC29EA07E70050E03C /* RectangleMethodTests.swift in Sources */,
+				208E36D029EA0EDE0050E03C /* TrapezoidMethodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206B9A5829D7DAF000B6A6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206B9A6329D7DAF000B6A6AB /* IntegralsCalculatorUITestsLaunchTests.swift in Sources */,
+				206B9A6129D7DAF000B6A6AB /* IntegralsCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		206B9A5429D7DAF000B6A6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206B9A4029D7DAEE00B6A6AB /* IntegralsCalculator */;
+			targetProxy = 206B9A5329D7DAF000B6A6AB /* PBXContainerItemProxy */;
+		};
+		206B9A5E29D7DAF000B6A6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206B9A4029D7DAEE00B6A6AB /* IntegralsCalculator */;
+			targetProxy = 206B9A5D29D7DAF000B6A6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		206B9A6429D7DAF000B6A6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		206B9A6529D7DAF000B6A6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		206B9A6729D7DAF000B6A6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IntegralsCalculator/IntegralsCalculator.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IntegralsCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = S7784F33D3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.IntegralsCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		206B9A6829D7DAF000B6A6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IntegralsCalculator/IntegralsCalculator.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IntegralsCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = S7784F33D3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.IntegralsCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		206B9A6A29D7DAF000B6A6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.IntegralsCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntegralsCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IntegralsCalculator";
+			};
+			name = Debug;
+		};
+		206B9A6B29D7DAF000B6A6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.IntegralsCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntegralsCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IntegralsCalculator";
+			};
+			name = Release;
+		};
+		206B9A6D29D7DAF000B6A6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.IntegralsCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IntegralsCalculator;
+			};
+			name = Debug;
+		};
+		206B9A6E29D7DAF000B6A6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.IntegralsCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IntegralsCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		206B9A3C29D7DAEE00B6A6AB /* Build configuration list for PBXProject "IntegralsCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206B9A6429D7DAF000B6A6AB /* Debug */,
+				206B9A6529D7DAF000B6A6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206B9A6629D7DAF000B6A6AB /* Build configuration list for PBXNativeTarget "IntegralsCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206B9A6729D7DAF000B6A6AB /* Debug */,
+				206B9A6829D7DAF000B6A6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206B9A6929D7DAF000B6A6AB /* Build configuration list for PBXNativeTarget "IntegralsCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206B9A6A29D7DAF000B6A6AB /* Debug */,
+				206B9A6B29D7DAF000B6A6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206B9A6C29D7DAF000B6A6AB /* Build configuration list for PBXNativeTarget "IntegralsCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206B9A6D29D7DAF000B6A6AB /* Debug */,
+				206B9A6E29D7DAF000B6A6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 206B9A3929D7DAEE00B6A6AB /* Project object */;
+}
